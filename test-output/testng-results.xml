@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="25842" started-at="2020-05-26T14:54:38 MST" finished-at="2020-05-26T14:55:04 MST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="25842" started-at="2020-05-26T14:54:38 MST" finished-at="2020-05-26T14:55:04 MST">
+      <class name="com.test.EmpCredentials">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.EmpCredentials@3a883ce7]" name="setUp" is-config="true" duration-ms="2538" started-at="2020-05-26T14:54:38 MST" finished-at="2020-05-26T14:54:41 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addEmoCreden()[pri:0, instance:com.test.EmpCredentials@3a883ce7]" name="addEmoCreden" duration-ms="6329" started-at="2020-05-26T14:54:41 MST" finished-at="2020-05-26T14:54:47 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmoCreden -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.EmpCredentials@3a883ce7]" name="tearDown" is-config="true" duration-ms="3101" started-at="2020-05-26T14:54:47 MST" finished-at="2020-05-26T14:54:50 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.EmpCredentials@3a883ce7]" name="setUp" is-config="true" duration-ms="1922" started-at="2020-05-26T14:54:50 MST" finished-at="2020-05-26T14:54:52 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="requiredFiledDisplay()[pri:0, instance:com.test.EmpCredentials@3a883ce7]" name="requiredFiledDisplay" duration-ms="8799" started-at="2020-05-26T14:54:52 MST" finished-at="2020-05-26T14:55:01 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- requiredFiledDisplay -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.EmpCredentials@3a883ce7]" name="tearDown" is-config="true" duration-ms="3111" started-at="2020-05-26T14:55:01 MST" finished-at="2020-05-26T14:55:04 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.EmpCredentials -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
