@@ -15,7 +15,7 @@ public class BaseClass {
 	
 	public static  WebDriver driver;
 	     
-	  @BeforeMethod// to make this method run before every @Test method
+	  @BeforeMethod(alwaysRun = true)// to make this method run before every @Test method
 	 public static WebDriver setUp() {
 		 
 		 ConfigsReader.readProperties(Constans.CONFIGURATIONS_FILEPATH);
@@ -46,7 +46,7 @@ public class BaseClass {
 		 return driver;
 		 
 	 }
-	  @AfterMethod//to make this method to run after every @Test method
+	  @AfterMethod(alwaysRun = true)//to make this method to run after every @Test method
 	 public static void tearDown() {
 		 if(driver!=null) {
 			 CommonMethods.sleep(3);

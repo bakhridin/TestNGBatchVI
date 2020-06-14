@@ -57,6 +57,9 @@ public class addEmplopyeePage extends CommonMethods {
 	@FindBy(xpath="//span[@for='lastName']")
 	public WebElement lastNameRequiredMsg;
 	
+	@FindBy(id="employeeId")
+	public WebElement employeeId;
+	
 	
 	public addEmplopyeePage() {
 		PageFactory.initElements(BaseClass.driver, this);

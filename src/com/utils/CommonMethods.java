@@ -303,7 +303,7 @@ public static void takeScreenshots(String filePath) {
 	File file=createObjectScreenShot().getScreenshotAs(OutputType.FILE);
 	
 	try {
-		FileUtils.copyFile(file, new File(filePath));
+		FileUtils.copyFile(file, new File("screenshots/"+filePath+".png"));
 	} catch (IOException e) {
 		e.printStackTrace();
 	}
